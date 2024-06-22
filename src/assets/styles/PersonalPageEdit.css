@@ -1,0 +1,75 @@
+.personal-page-header {
+    padding: 51px 0;
+    background-color: #9DB2BF;
+}
+.personal-page-container {
+    max-width: 1480px;
+    margin: 0 auto;
+}
+.personal-page-edit-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.personal-page-edit-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    row-gap: 35px;
+}
+.button-add-flat {
+    font-size: 15px;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: #27374D;
+    border: 2px solid #27374D;
+}
+.personal-page-header-content {
+    display: flex;
+    justify-content: space-between;
+}
+.personal-page-edit-title {
+    padding: 45px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personal-page-edit-title p {
+    font-weight: bold;
+    font-size: 30px;
+}
+.personal-page-edit-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+.button-edit-do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 35px;
+    background-color: #526D82;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.button-edit-do:hover {
+    cursor: pointer;
+}
+.button-edit-cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 50px;
+    color: #526D82;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid #526D82;
+}
+.button-edit-cancel:hover {
+    cursor: pointer;
+}

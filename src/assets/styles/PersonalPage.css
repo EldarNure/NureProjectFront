@@ -1,0 +1,49 @@
+.header {
+    padding: 45px 0;
+    background-color: #9DB2BF;
+}
+.personal-page-container {
+    max-width: 1480px;
+    margin: 0 auto;
+}
+.personal-page-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.button-add-flat {
+    font-size: 15px;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: #27374D;
+    border: 2px solid #27374D;
+}
+.personal-page-header-content {
+    display: flex;
+    justify-content: space-between;
+}
+.personal-page-title {
+    padding: 45px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.personal-page-title p {
+    font-weight: bold;
+    font-size: 18px;
+}
+.button-edit-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 50px;
+    background-color: #526D82;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.button-edit-profile:hover {
+    cursor: pointer;
+}

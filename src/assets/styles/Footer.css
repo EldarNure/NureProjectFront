@@ -1,0 +1,16 @@
+.footer-content {
+    margin-top: 25px;
+}
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    border-top: 5px solid #E7EEF4;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.socials {
+    display: flex;
+    gap: 10px;
+}

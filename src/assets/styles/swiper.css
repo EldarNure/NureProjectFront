@@ -1,0 +1,87 @@
+.swiper-element-flat {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.flat-image {
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+}
+.flat-description {
+    text-align: left;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.flat-price {
+    display: flex;
+    justify-content: space-between;
+}
+.flat-price .price {
+    font-weight: bold;
+}
+.flat-icons {
+    display: flex;
+    gap: 15px;
+}
+.flat-street {
+    font-weight: bold;
+}
+.flat-place {
+    display: flex;
+    gap: 15px;
+    
+}
+.flat-size {
+    display: flex;
+    gap: 15px;
+}
+.flat-button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #9DB2BF;
+    border: 1px solid #526D82;
+    width: 30%;
+}
+.swiper-container {
+    position: relative;
+}
+.swiper-button-prev {
+    background-color: white; /* Цвет стрелочек */
+    position: absolute;
+    top: 28%;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-button-prev img {
+    background-color: white; /* Цвет стрелочек */
+
+}
+.swiper-button-next {
+    background-color: white; /* Цвет стрелочек */
+    position: absolute;
+    top: 28%;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

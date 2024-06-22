@@ -1,15 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="content">
+    <router-view></router-view>
+  </div>
+  <MyFooter></MyFooter>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import { onMounted } from 'vue'
+import MyFooter from './components/elements/Footer.vue'
+import {jwtDecode} from 'jwt-decode';
+import { useStore } from 'vuex';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MyFooter
+  },
+  setup() {
+    const store = useStore();
+    onMounted(() => {
+      if (localStorage?.getItem("jwt_token")) {
+        store.dispatch("setUserShortInfo", jwtDecode(localStorage.getItem("jwt_token")))
+      }
+    })
   }
 }
 </script>

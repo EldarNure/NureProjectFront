@@ -1,0 +1,85 @@
+.register-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.register-header {
+    padding: 25px 25px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    color: #666666
+}
+.header-content img {
+    color: #666666;
+    width: 20px;
+    height: 20px;
+}
+.header-content:hover {
+    cursor: pointer;
+}
+.register-page-content {
+    margin-top: 50px;
+}
+.register-page-text {
+    font-size: 40px;
+    font-weight: bold;
+}
+.register-page-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    gap: 20px;
+    row-gap: 35px;
+}
+
+.register-input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    margin-top: 7px;
+}
+.register-input:focus {
+    border-color: #999;
+  }
+.register-element {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: bold;
+    color: #384D6C;
+}
+.button-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C3C3C3;
+    padding: 10px 100px;
+    border-radius: 30px;
+    background-color: #666666;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 35px auto auto auto;
+}
+.button-register:hover {
+    cursor: pointer;
+}
+.redirect-login {
+    margin-top: 40px;
+}
+.redirect-login a {
+    text-decoration: none;
+    color: #4B72C2;
+}
+.validation-error {
+    border: 1px solid red !important;
+}
